@@ -1,0 +1,36 @@
+# Logs
+*.log
+backend/*.log
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+*.suo
+*.user
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Backend temporary files
+backend/target/surefire-reports/
+backend/target/maven-status/
+# Sensitive configuration
+backend/src/main/resources/application.properties
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+
+# Backend build files
+backend/target/
+backend/bin/
+backend/*.class
+
+# Environment files
+.env
+.env.*
+# Generated files and incomplete downloads
+*.crdownload
+frontend/public/cars/DriveNest Invoice.pdf

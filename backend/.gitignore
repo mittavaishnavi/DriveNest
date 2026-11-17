@@ -1,0 +1,16 @@
+# Private configuration
+application.properties
+
+# Environment and secrets
+.env
+.env.*
+
+# Build files
+target/
+bin/
+*.class
+
+# IDE files
+.settings/
+.project
+.classpath
